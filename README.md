@@ -1,20 +1,26 @@
 # DiabetesClassificationDataMiningProject
 
 
-#Executive Overview
+# Executive Overview
+
 text here
 
-#Dataset
+# Dataset
+
 dataset info
 
-#EDA
+# EDA
+
 put EDA
 
-#Dashboard
+# Dashboard
+
 put dashboard
 
-#Classification Models
+# Classification Models
+
 put classification model analysis
 
-#Insights
+# Insights
+
 give insights for the analysis
