@@ -4,6 +4,10 @@
 
 To run this program, open in Google Colab and run each cell in order.
 
+## Technologies Used
+
+Python (NumPy, Pandas, Scikit-Learn, Matplotlib, Seaborn), Tableau
+
 
 ## Executive Overview
 
@@ -17,7 +21,7 @@ Overall, the analysis demonstrates that diabetes classification is primarily dri
 
 For this project, a dataset of 100,000 patients' medical records was used to predict if a patient had been diagnosed with diabetes or not. The objective of this classification was to identify key medical factors associated with the development and diagnosis of diabetes and use them to build an accurate predictive model using Decision Trees and AdaBoost. Medical factors in the dataset include: Smoking History, HbA1c Level, BMI, Blood Glucose Level, Heart Disease, Hypertension, Age, and Gender. 
 
-## Dashboard
+## Tableau Dashboard
 
 ![Tableau Dashboard for Diabetes Classification](Images/DiabetesDashboard.png)
 
