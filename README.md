@@ -33,6 +33,7 @@ Data Evaluation and Analysis
 
 ![Data Evaluation and Analysis](Images/PythonDiabetesAnalysis.png)
 
+
 Smoking insights show that those who have a medical history of smoking have a slightly larger share of diabetes diagnoses compared to those who don’t; although, the ratio between smokers and non-smokers is within 10% among both diabetes and non-diabetes patients. This data was shown as a pie chart, sufficiently visualizing the proportion of smokers and non-smokers between diabetes and non-diabetes patients. 
 
 For all medical factors compared by averages between diabetes and non-diabetes patients, a positive correlation is found in elevated average BMI, Blood Glucose Levels, HbA1c Levels with the diagnosis of diabetes. This positive correlation also applies to heart disease patients with the most significant difference among the two populations. These comparisons were visualized as bar charts to compare the difference of average values between the two populations in each medical factor, adequately showing the positive correlation between higher values and diabetes diagnoses.
@@ -52,11 +53,13 @@ Decision Tree, AdaBoost, and Random Forest Confusion Matrices
 
 Note. These numbers are measured as the count of each observed category.
 
+
 Figure 4
 
 Model evaluation scores of each model: Decision Tree, AdaBoost, Random Forest
 
 ![Model evaluation scores of each model: Decision Tree, AdaBoost, Random Forest](Images/ModelEval.png)
+
 
 
 Analyzing Figure 3 and Figure 4, results from each model has its own evaluation advantage within the spread of all model scores. 
@@ -71,6 +74,7 @@ Printed Decision Tree classifier
 
 Note. HbA1c was measured as a percentage (%) of glycated hemoglobin, reflecting average blood glucose levels over the past 2–3 months. Blood Glucose Level was measured as mmol/L.
 
+
 For recall-oriented evaluation, AdaBoost achieves the highest recall among the models, indicating high efficiency in identifying positive cases. In medical classification, recall is particularly important, as missing a positive diagnosis can be more harmful than assigning a false negative diagnosis. As a result, AdaBoost may be better suited for detecting less obvious diabetes cases than the Decision Tree model, as it prioritizes capturing true positives while considering multiple contributing features (see Figure 6).
 
 
@@ -82,6 +86,7 @@ AdaBoost Feature Importance
 ![AdaBoost Feature Importance](Images/AdaBoostImportance.png)
 
 Note. Feature importance scores are expressed as normalized decimal values summing to 1, where each value represents the proportion of total importance attributed to a feature. Multiplying by 100 converts these proportions into percentages for clearer interpretation.
+
 
 Random Forest provides the most balanced classification, achieving moderate precision and recall without the extremes shown in the Decision Tree or Ada Boost models. With Random Forest aggregating multiple trees, it reduces variance and prevents overfitting, resulting in stable performance (see Figure 7). These feature importance levels recorded correlate directly with those found in the AdaBoost model. Although individual metrics are lower than Decision Tree and AdaBoost models, its consistency makes it best suited for prioritized generalization and reliability over a single performance metric.
 
