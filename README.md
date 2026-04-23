@@ -36,7 +36,7 @@ The correlation matrix indicates that most medical factors show weak or insignif
 
 ## Dashboard
 
-![Tableau Dashboard for Diabetes Classification](ImagesDiabetesDashboard.png)
+![Tableau Dashboard for Diabetes Classification](Images/DiabetesDashboard.png)
 
 ## Classification Models
 
