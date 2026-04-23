@@ -1,11 +1,11 @@
 # DiabetesClassificationDataMiningProject
 
-# Platform
+## Platform
 
 To run this program, open in Google Colab and run each cell in order.
 
 
-# Executive Overview
+## Executive Overview
 
 This project analyzes key health factors associated with diabetes using a dataset of 100,000 patient records. The goal is to identify the most influential predictors of diabetes and support accurate classification through machine learning models.
 
@@ -13,11 +13,11 @@ The results highlight HbA1c levels and blood glucose levels as the strongest ind
 
 Overall, the analysis demonstrates that diabetes classification is primarily driven by glucose-related measures, with other health and lifestyle factors providing supporting context in predicting risk.
 
-# Dataset and Problem Defintion
+## Dataset and Problem Defintion
 
 For this project, a dataset of 100,000 patients' medical records was used to predict if a patient had been diagnosed with diabetes or not. The objective of this classification was to identify key medical factors associated with the development and diagnosis of diabetes and use them to build an accurate predictive model using Decision Trees and AdaBoost. Medical factors in the dataset include: Smoking History, HbA1c Level, BMI, Blood Glucose Level, Heart Disease, Hypertension, Age, and Gender. 
 
-# EDA
+## EDA
 
 Smoking insights show that those who have a medical history of smoking have a slightly larger share of diabetes diagnoses compared to those who don’t; although, the ratio between smokers and non-smokers is within 10% among both diabetes and non-diabetes patients. This data was shown as a pie chart, sufficiently visualizing the proportion of smokers and non-smokers between diabetes and non-diabetes patients. 
 For all medical factors compared by averages between diabetes and non-diabetes patients, a positive correlation is found in elevated average BMI, Blood Glucose Levels, HbA1c Levels with the diagnosis of diabetes. This positive correlation also applies to heart disease patients with the most significant difference among the two populations. These comparisons were visualized as bar charts to compare the difference of average values between the two populations in each medical factor, adequately showing the positive correlation between higher values and diabetes diagnoses.
