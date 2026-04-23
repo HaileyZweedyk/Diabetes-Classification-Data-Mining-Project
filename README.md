@@ -33,7 +33,7 @@ Figure 1
 
 Boxplot analysis of each quantitative variable: age, bmi, HbA1c level, blood glucose level
 
-![Boxplot analysis of each quantitative variable: age, bmi, HbA1c level, blood glucose level](Images/Boxplot.png)
+![Boxplot analysis of each quantitative variable: age, bmi, HbA1c level, blood glucose level](Images/Boxplots.png)
 
 Across all medical factor box plots in Figure 1, the BMI box plot indicates numerous high outliers. Because these values reflect real differences in body composition, removing them could result in bias; therefore, they were retained to ensure a more accurate analysis.
 
