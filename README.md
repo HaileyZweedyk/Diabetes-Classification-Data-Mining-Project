@@ -1,5 +1,9 @@
 # DiabetesClassificationDataMiningProject
 
+# Platform
+
+To run this program, open in Google Colab and run each cell in order.
+
 
 # Executive Overview
 
