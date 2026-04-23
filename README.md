@@ -1,4 +1,4 @@
-# DiabetesClassificationDataMiningProject
+# Diabetes Classification Project
 
 ## Platform
 
