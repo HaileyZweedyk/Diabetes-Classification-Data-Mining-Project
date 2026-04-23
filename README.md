@@ -1,13 +1,5 @@
 # Diabetes Classification Project
 
-## Platform
-
-To run this program, open in Google Colab and run each cell in order.
-
-## Technologies Used
-
-Python (NumPy, Pandas, Scikit-Learn, Matplotlib, Seaborn), Tableau
-
 
 ## Executive Overview
 
@@ -16,6 +8,14 @@ This project analyzes key health factors associated with diabetes using a datase
 The results highlight HbA1c levels and blood glucose levels as the strongest indicators of diabetes, showing a clear and consistent relationship with positive diagnoses. Additional factors such as age, BMI, hypertension, and smoking history also contribute to increased risk, though to a lesser extent.
 
 Overall, the analysis demonstrates that diabetes classification is primarily driven by glucose-related measures, with other health and lifestyle factors providing supporting context in predicting risk.
+
+## Platform
+
+To run this program, open in Google Colab and run each cell in order.
+
+## Technologies Used
+
+Python (NumPy, Pandas, Scikit-Learn, Matplotlib, Seaborn), Tableau
 
 ## Dataset and Problem Defintion
 
