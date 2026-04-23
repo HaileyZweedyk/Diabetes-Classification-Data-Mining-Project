@@ -67,7 +67,7 @@ Due to the importance of minimizing missed diagnoses in medical classification, 
 
 ![Random Forest Feature Importance](Images/RandomForestImportance.png)
 
-Feature importance confirms that HbA1c and blood glucose levels are the most influential predictors.
+Feature importance confirms that HbA1c, blood glucose levels, and age are the most influential predictors.
 
 ## Tableau Dashboard
 
