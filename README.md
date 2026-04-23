@@ -17,6 +17,10 @@ Overall, the analysis demonstrates that diabetes classification is primarily dri
 
 For this project, a dataset of 100,000 patients' medical records was used to predict if a patient had been diagnosed with diabetes or not. The objective of this classification was to identify key medical factors associated with the development and diagnosis of diabetes and use them to build an accurate predictive model using Decision Trees and AdaBoost. Medical factors in the dataset include: Smoking History, HbA1c Level, BMI, Blood Glucose Level, Heart Disease, Hypertension, Age, and Gender. 
 
+## Dashboard
+
+![Tableau Dashboard for Diabetes Classification](Images/DiabetesDashboard.png)
+
 ## EDA
 
 Figure 2
@@ -33,10 +37,6 @@ A positive correlation with older age was also found in plotting the count of di
 
 The correlation matrix indicates that most medical factors show weak or insignificant relationships; however, several variables exhibit meaningful correlations with age, supporting the trend observed in the analysis line graph of the number of diabetics by age.
 
-
-## Dashboard
-
-![Tableau Dashboard for Diabetes Classification](Images/DiabetesDashboard.png)
 
 ## Classification Models
 
