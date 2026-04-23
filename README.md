@@ -19,24 +19,37 @@ For this project, a dataset of 100,000 patients' medical records was used to pre
 
 ## EDA
 
+Figure 2
+
+Data Evaluation and Analysis
+
+![Data Evaluation and Analysis](Images/PythonDiabetesAnalysis.png)
+
 Smoking insights show that those who have a medical history of smoking have a slightly larger share of diabetes diagnoses compared to those who don’t; although, the ratio between smokers and non-smokers is within 10% among both diabetes and non-diabetes patients. This data was shown as a pie chart, sufficiently visualizing the proportion of smokers and non-smokers between diabetes and non-diabetes patients. 
+
 For all medical factors compared by averages between diabetes and non-diabetes patients, a positive correlation is found in elevated average BMI, Blood Glucose Levels, HbA1c Levels with the diagnosis of diabetes. This positive correlation also applies to heart disease patients with the most significant difference among the two populations. These comparisons were visualized as bar charts to compare the difference of average values between the two populations in each medical factor, adequately showing the positive correlation between higher values and diabetes diagnoses.
+
 A positive correlation with older age was also found in plotting the count of diabetes patients at each age. Analyzing the line plot shows that diabetes diagnoses started increasing steadily after the age of 35, peaking between the ages of 60 and 70, with mortality as the most potential reason for the drop in diagnoses after 70.
+
 The correlation matrix indicates that most medical factors show weak or insignificant relationships; however, several variables exhibit meaningful correlations with age, supporting the trend observed in the analysis line graph of the number of diabetics by age.
 
 
 ## Dashboard
 
-[Tableau Dashboard for Diabetes Classification](DiabetesProjectDashboard.twb)
+![Tableau Dashboard for Diabetes Classification](ImagesDiabetesDashboard.png)
 
 ## Classification Models
 
 Figure 3
+
 Decision Tree, AdaBoost, and Random Forest Confusion Matrices
+
+![Decision Tree, AdaBoost, and Random Forest Confusion Matrices](Images/ModelComparison.png)
 
 Note. These numbers are measured as the count of each observed category.
 
 Figure 4
+
 Model evaluation scores of each model: Decision Tree, AdaBoost, Random Forest
 
 ![Model evaluation scores of each model: Decision Tree, AdaBoost, Random Forest](Images/ModelEval.png)
@@ -47,7 +60,10 @@ Analyzing Figure 3 and Figure 4, results from each model has its own evaluation 
 For precision-oriented evaluation, the Decision Tree demonstrates a conservative classification behavior, avoiding false positives shown by its 100% precision. This shows that all aggressively positive cases were correctly identified via the thresholds in Figure 5. However, this comes at the cost of lower recall, suggesting that some true positive cases were missed. The model achieves the highest accuracy, which is influenced in part by the class imbalance in the dataset, where 90.6% of observations are non-diabetic patients. This imbalance can inflate accuracy, as correctly predicting the majority class contributes heavily to the metric. Additionally, the Decision Tree has the highest F1-score among all the models, reflecting a strong balance between precision and recall, although this balance is primarily driven by its high precision and less than adequate recall rates.
 
 Figure 5
+
 Printed Decision Tree classifier
+
+![Printed Decision Tree classifier](Images/DecisionTree.png)
 
 Note. HbA1c was measured as a percentage (%) of glycated hemoglobin, reflecting average blood glucose levels over the past 2–3 months. Blood Glucose Level was measured as mmol/L.
 
@@ -56,7 +72,10 @@ For recall-oriented evaluation, AdaBoost achieves the highest recall among the m
 
 
 Figure 6
+
 AdaBoost Feature Importance
+
+![AdaBoost Feature Importance](Images/AdaBoostImportance.png)
 
 Note. Feature importance scores are expressed as normalized decimal values summing to 1, where each value represents the proportion of total importance attributed to a feature. Multiplying by 100 converts these proportions into percentages for clearer interpretation.
 
@@ -65,7 +84,10 @@ Random Forest provides the most balanced classification, achieving moderate prec
 
 
 Figure 7
+
 Random Forest Feature Importance
+
+![Random Forest Feature Importance](Images/RandomForestImportance.png)
 
 Note. Feature importance scores are expressed as normalized decimal values summing to 1, where each value represents the proportion of total importance attributed to a feature. Multiplying by 100 converts these proportions into percentages for clearer interpretation.
 
