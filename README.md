@@ -39,7 +39,7 @@ Note. These numbers are measured as the count of each observed category.
 Figure 4
 Model evaluation scores of each model: Decision Tree, AdaBoost, Random Forest
 
-[Model evaluation scores of each model: Decision Tree, AdaBoost, Random Forest](Images/ModelEval.png)
+![Model evaluation scores of each model: Decision Tree, AdaBoost, Random Forest](Images/ModelEval.png)
 
 
 Analyzing Figure 3 and Figure 4, results from each model has its own evaluation advantage within the spread of all model scores. 
