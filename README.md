@@ -25,11 +25,11 @@ A positive correlation with older age was also found in plotting the count of di
 The correlation matrix indicates that most medical factors show weak or insignificant relationships; however, several variables exhibit meaningful correlations with age, supporting the trend observed in the analysis line graph of the number of diabetics by age.
 
 
-# Dashboard
+## Dashboard
 
 put dashboard
 
-# Classification Models
+## Classification Models
 
 Figure 3
 Decision Tree, AdaBoost, and Random Forest Confusion Matrices
@@ -71,7 +71,7 @@ Note. Feature importance scores are expressed as normalized decimal values summi
 
 
 
-# Insights
+## Insights
 
 Based on the collective results of the models, it’s consistently indicated that elevated HbA1c and Blood Glucose levels are the most significant factors to diabetes diagnoses across all models. This aligns with established medical understanding, where elevated HbA1c and glucose levels are key factors in diabetes diagnoses. Additionally, the age analysis suggests that risk begins to increase in the 30–40 age range, indicating that earlier monitoring in this age range could improve detection of at-risk individuals. A smaller, yet meaningful, association is observed between higher BMI and diabetes diagnoses, suggesting that BMI acts as an additional risk factor alongside elevated HbA1c and blood glucose levels.
 
@@ -82,6 +82,6 @@ Ensemble models are less affected by class imbalance, as reflected in their more
 
 Overall, AdaBoost is the most appropriate model for diabetes classification due to its superior recall compared to the other models. In medical classification, recall is the most important evaluation metric, as failing to identify a positive case can have more serious consequences than incorrectly predicting a false positive. By prioritizing the reduction of false negatives, AdaBoost is better suited for identifying at-risk patients, even if this results in a higher number of false positives. Therefore, since it identifies more true positive patients, it is the most appropriate model for this application.
 
-# Conclusion and Future Work
+## Conclusion and Future Work
 The findings of our models and analysis indicate that elevated HbA1c and blood glucose levels, as well as older age and higher BMI, are key predictors of diabetes diagnosis classification. Emphasis on recall in identifying positive cases makes AdaBoost the most appropriate model for medical diagnosis tasks. Future improvements address class imbalance by using resampling techniques to better balance the distribution of diabetic and non-diabetic cases. By addressing this imbalance, the model would improve its performance by being trained on a more balanced distribution of diabetic and non-diabetic patients, encouraging the model to better learn patterns associated with the minority class (diabetics) and improving its ability to correctly identify positive diagnoses while reducing the probability of missed diagnoses.
 
