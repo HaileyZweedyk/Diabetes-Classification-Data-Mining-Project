@@ -29,6 +29,15 @@ For this project, a dataset of 100,000 patients' medical records was used to pre
 
 ## EDA
 
+Figure 1
+
+Boxplot analysis of each quantitative variable: age, bmi, HbA1c level, blood glucose level
+
+![Boxplot analysis of each quantitative variable: age, bmi, HbA1c level, blood glucose level](Images/Boxplot.png)
+
+Across all medical factor box plots in Figure 1, the BMI box plot indicates numerous high outliers. Because these values reflect real differences in body composition, removing them could result in bias; therefore, they were retained to ensure a more accurate analysis.
+
+
 Figure 2
 
 Data Evaluation and Analysis
