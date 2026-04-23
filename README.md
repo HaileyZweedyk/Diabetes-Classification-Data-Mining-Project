@@ -71,9 +71,9 @@ Feature importance confirms that HbA1c, blood glucose levels, and age are the mo
 
 ## Tableau Dashboard
 
-![Dashboard Preview](Images/Dashboard.png)
+![Dashboard Preview](Images/DiabetesDashboard.png)
 
-[Download Tableau Workbook](files/dashboard.twb)
+[Download Tableau Workbook](DiabetesProjectDashboard.twb)
 
 
 ## Key Insights
