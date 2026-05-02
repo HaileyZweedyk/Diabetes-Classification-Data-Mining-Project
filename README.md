@@ -13,11 +13,11 @@ Overall, the analysis demonstrates that diabetes classification is primarily dri
 
 Python (NumPy, Pandas, scikit-learn, Matplotlib, Seaborn) 
 
+Tableau
+
 ## How to Run
 
 This project can be run in Google Colab by opening the notebook and executing each cell sequentially from top to bottom.
-
-Tableau
 
 ## Dataset and Problem Defintion
 
